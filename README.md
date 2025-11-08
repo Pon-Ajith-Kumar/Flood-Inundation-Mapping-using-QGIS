@@ -25,6 +25,48 @@ The workflow includes:
 
 These combined methods enable both **visual** and **analytical** flooding insights.
 
+# Directory Structure
+
+```plaintext
+📦 Flood-Simulation-3D-PostGIS
+│
+├── data/
+│   ├── dem/
+│   │   └── assam_dem.tif                # Raw DEM downloaded from OpenTopography
+│   │
+│   ├── rasters/
+│   │   ├── flood_30.tif
+│   │   ├── flood_45.tif
+│   │   ├── flood_50.tif
+│   │   ├── ...                          # All raw flood rasters
+│   │   └── flood_2930.tif
+│   │
+│   ├── smooth_rasters/
+│   │   ├── flood_30_smooth.tif
+│   │   ├── flood_45_smooth.tif
+│   │   ├── ...                          # All smoothed flood rasters
+│   │   └── flood_2930_smooth.tif
+│   │
+│   ├── vectors/
+│   │   ├── flood_30.gpkg
+│   │   ├── flood_45.gpkg
+│   │   ├── flood_50.gpkg
+│   │   ├── ...                          # All polygonized flood layers
+│   │   └── flood_2930.gpkg
+│   │
+│   └── qgis_project/
+│       └── flood_simulation.qgz         # Main QGIS .qgz project file
+│
+├── animations/
+│   ├── 2d/
+│   │   └── flood_2d_animation.mp4
+│   ├── 3d/
+│   │   └── flood_3d_animation.mp4
+│   └── frames/
+        └── frame_0001.png               # Optional: animation export frames
+
+```
+
 ---
 
 # **2. Software and Data Used**
