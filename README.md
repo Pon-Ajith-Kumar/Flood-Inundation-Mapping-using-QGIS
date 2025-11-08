@@ -28,7 +28,7 @@ These combined methods enable both **visual** and **analytical** flooding insigh
 # Directory Structure
 
 ```plaintext
-📦 Flood-Simulation-3D-PostGIS
+📦 Flood-Inundation-Mapping-using-QGIS
 │
 ├── data/
 │   ├── dem/
