@@ -20,8 +20,8 @@ This project presents a **complete spatio-temporal GIS workflow** for simulating
 
 The workflow includes:
 
-✅ **Workflow 1 — QGIS Flood Simulation (Raster-based)** <br />
-✅ **Workflow 2 — PostGIS Flood Analysis (Vector-based)**
+**Workflow 1 — QGIS Flood Simulation (Raster-based)** <br />
+**Workflow 2 — PostGIS Flood Analysis (Vector-based)**
 
 These combined methods enable both **visual** and **analytical** flooding insights.
 
