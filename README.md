@@ -34,36 +34,28 @@ These combined methods enable both **visual** and **analytical** flooding insigh
 │   ├── dem/
 │   │   └── assam_dem.tif                # Raw DEM downloaded from OpenTopography
 │   │
-│   ├── rasters/
+│   ├── rasters/          #(Can obtained yourself by following Step 3.4 in the README)
 │   │   ├── flood_30.tif
 │   │   ├── flood_45.tif
 │   │   ├── flood_50.tif
 │   │   ├── ...                          # All raw flood rasters
 │   │   └── flood_2930.tif
 │   │
-│   ├── smooth_rasters/
+│   ├── smooth_rasters/   #(Can obtain yourself by following Step 3.5 in the README)
 │   │   ├── flood_30_smooth.tif
 │   │   ├── flood_45_smooth.tif
 │   │   ├── ...                          # All smoothed flood rasters
 │   │   └── flood_2930_smooth.tif
 │   │
-│   ├── vectors/
+│   ├── vectors/          #(Can obtain yourself by following Step 6 in the README)
 │   │   ├── flood_30.gpkg
 │   │   ├── flood_45.gpkg
 │   │   ├── flood_50.gpkg
 │   │   ├── ...                          # All polygonized flood layers
 │   │   └── flood_2930.gpkg
 │   │
-│   └── qgis_project/
+│   └── qgis_project/                   
 │       └── flood_simulation.qgz         # Main QGIS .qgz project file
-│
-├── animations/
-│   ├── 2d/
-│   │   └── flood_2d_animation.mp4
-│   ├── 3d/
-│   │   └── flood_3d_animation.mp4
-│   └── frames/
-        └── frame_0001.png               # Optional: animation export frames
 
 ```
 
