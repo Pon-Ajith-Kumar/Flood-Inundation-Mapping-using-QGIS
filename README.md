@@ -2,7 +2,7 @@
 ---
 # **Spatio-Temporal Flood Inundation Simulation and 3D Visualization using QGIS & PostGIS**
 
-*A comprehensive, end-to-end geospatial workflow that integrates Digital Elevation Models, raster-based flood simulation, temporal 2D and 3D visualization in QGIS, and vector-based spatial analysis in PostGIS to model, animate, quantify, and evaluate flood inundation patterns across the Brahmaputra Basin.*
+*A comprehensive, end-to-end geospatial workflow that integrates Digital Elevation Models, raster-based flood simulation, temporal 2D and 3D visualization in QGIS, and vector-based spatial analysis in PostGIS to model, animate, quantify, and evaluate flood inundation patterns across the Brahmaputra Basin. The simulation assumes static terrain and uniform water rise; future work includes coupling with rainfall-runoff or SAR-based water detection. The pipeline can be automated using Python (PyQGIS) for operational disaster monitoring.*
 
 ---
 
